@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while true
+do 
+if [ ! 'pgrep rdesktop' ] ; then
+'/usr/bin/rdesktop -f 10.10.20.2'
+fi
+done
